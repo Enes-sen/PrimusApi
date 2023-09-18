@@ -1,0 +1,6 @@
+[build]
+command = "dotnet build"
+publish = "api/bin/Release/net6.0/publish"
+
+[functions]
+include = "api/functions"
