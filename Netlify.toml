@@ -1,6 +1,11 @@
 [build]
 command = "dotnet build"
-publish = "PrimusDb/bin/Release/net6.0/publish"
+publish = "api/bin/Release/net6.0/publish"
 
 [functions]
 include = "api/functions"
+
+[[redirects]]
+from = "/*"
+to = "/api"
+status = 301
