@@ -1,5 +1,5 @@
 [build]
-command = "dotnet build"
+command = "dotnet build && dotnet publish --configuration Release"
 publish = "./PrimusDb/bin/Release/net6.0/publish"
 
 [functions]
